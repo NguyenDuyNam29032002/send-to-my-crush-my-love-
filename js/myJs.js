@@ -35,11 +35,11 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/2.jpg",
+      imageUrl: "img/iput-bg.jpg",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
-      imageAlt: "Custom image",
+      imageAlt: "puung2.jpg",
     }).then(function () {
       $(".content").show(200);
     });
