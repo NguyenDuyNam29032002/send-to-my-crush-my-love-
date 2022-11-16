@@ -39,7 +39,7 @@ $(document).ready(function () {
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
-      imageAlt: "puung2.jpg",
+      imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
     });
