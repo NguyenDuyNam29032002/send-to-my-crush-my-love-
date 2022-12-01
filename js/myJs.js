@@ -1,17 +1,17 @@
 const textConfig = {
-  text1: "..........",
-  text2: "..........",
-  text3: "..........",
-  text4: "..........",
-  text5: "..........",
-  text6: "..........",
-  text7: "..........",
-  text8: "..........",
-  text9: "dm sio :)))",
-  text10: "..........",
+  text1: "Tớ Thấy trên bio của cậu có ing LoL :v",
+  text2: "Tớ cx chơi LoL nè :]]",
+  text3: "Vậy cậu có muốn chơi LoL cùng tớ với vài game không :>",
+  text4: "(●'◡'●)",
+  text5: "Không :>",
+  text6: "Có",
+  text7: "Cậu viết gì đi, gõ Chậm thôi nh :>",
+  text8: "Click vào đây nè!!",
+  text9: "Ing của Mình nè: always0alone :> ",
+  text10: "Mình chơi hơi kém :<, có gì cậu thông cảm (●'◡'●)",
   text11:
-    "..........",
-  text12: ",...",
+    "hehe ☆*: .｡. o(≧▽≦)o .｡.:*☆",
+  text12: "click vào đây nữa nè!!",
 };
 
 $(document).ready(function () {
@@ -35,10 +35,10 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/iput-bg.jpg",
+      imageUrl: "img/4.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("img/5.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
@@ -115,7 +115,7 @@ $(document).ready(function () {
       width: 900,
       padding: "3em",
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("img/5.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
                     url("img/giphy2.gif")
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/your.trinhkieule/posts/pfbid0yrRihGXjGP8CskCJxzksFFMmdk3kNDZ1xfPTiT1bpr2CMUyY9iE9daUCy8auH5nxl";
+            window.location = "";
           },
         });
       }
