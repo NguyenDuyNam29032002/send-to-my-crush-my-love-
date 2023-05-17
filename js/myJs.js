@@ -1,17 +1,17 @@
 const textConfig = {
-  text1: "Tớ Thấy trên bio của cậu có ing LoL :v",
-  text2: "Tớ cx chơi LoL nè :]]",
-  text3: "Vậy cậu có muốn chơi LoL cùng tớ với vài game không :>",
-  text4: "(●'◡'●)",
-  text5: "Không :>",
-  text6: "Có",
-  text7: "Cậu viết gì đi, gõ Chậm thôi nh :>",
-  text8: "Click vào đây nè!!",
-  text9: "Ing của Mình nè: always0alone :> ",
-  text10: "Mình chơi hơi kém :<, có gì cậu thông cảm (●'◡'●)",
+  text1: "tex1",
+  text2: "text2",
+  text3: "text3",
+  text4: "text4",
+  text5: "text5",
+  text6: "text6",
+  text7: "text7",
+  text8: "text8",
+  text9: "text9",
+  text10: "text10",
   text11:
-    "hehe ☆*: .｡. o(≧▽≦)o .｡.:*☆",
-  text12: "click vào đây nữa nè!!",
+    "text11",
+  text12: "text12",
 };
 
 $(document).ready(function () {
